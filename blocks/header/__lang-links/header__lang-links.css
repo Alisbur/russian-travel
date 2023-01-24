@@ -4,11 +4,12 @@
     padding:0;
     display: flex;
     flex-direction: row;
-    align-items: end;
-}
+    align-items:flex-end;
+2}
 
-@media (max-width: 424px) {
+@media (max-width: 767px) {
     .header__lang-links {
         align-items: center;
+        transform: translateY(5px);
     }
 }

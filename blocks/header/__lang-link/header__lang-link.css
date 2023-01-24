@@ -2,13 +2,13 @@
     margin: 0;
     color: #FFFFFF;
     font-size: 24px;
-    line-height: 1.166;
+    line-height: 1.5;
     font-weight: 400;
     text-decoration: none;
     padding-left: 18px;
 }
 
-@media (max-width: 424px) {
+@media (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 1.111;
