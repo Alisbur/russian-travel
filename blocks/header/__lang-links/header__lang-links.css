@@ -1,0 +1,14 @@
+.header__lang-links {
+    margin: 0;
+    list-style: none;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+@media (max-width: 424px) {
+    .header__lang-links {
+        align-items: center;
+    }
+}
