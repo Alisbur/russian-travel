@@ -1,0 +1,26 @@
+.places__title {
+    margin: 0;
+    color: #FFFFFF;
+    grid-area: places__title;
+    font-size: 72px;
+    line-height: 1.055;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    width:100%;
+    
+    min-width: 460px;
+}
+
+@media (max-width: 1024px) {
+    .places__title {
+        min-width: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .places__title {
+        min-width: 340px;
+        font-size: 42px;
+        line-height: 1.095;
+    }
+}
