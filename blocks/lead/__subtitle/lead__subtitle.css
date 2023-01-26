@@ -9,7 +9,16 @@
     padding-top: 32px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 767px) {
+    .lead__subtitle {
+        padding-top: 16px;
+        font-size: 24px;
+        line-height: 1.25;
+        max-width: 430px;
+    }
+}
+
+@media (max-width: 499px) {
     .lead__subtitle {
         padding-top: 16px;
         font-size: 16px;

@@ -7,13 +7,26 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
     .lead {
         padding: 0 48px;
     }
 }
 
 @media (max-width: 768px) {
+    .lead {
+        padding: 0;
+    }
+}*/
+
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .lead {
+        padding: 0 48px;
+    }
+}
+
+@media (max-width: 1023px) {
     .lead {
         padding: 0;
     }

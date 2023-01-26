@@ -2,27 +2,24 @@
     margin: 0;
     grid-area: places__text;
     width:100%;
-    min-width: 484px;
+    /*min-width: 484px;*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 26px;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     .places__text {
-        min-width: 456px;
+        gap: 25px;
     }
 }
 
-@media (max-width: 768px) {
-    .places {
-        min-width: 352px;
-    }
-}
-
-@media (max-width: 320px) {
-    .places {
-        min-width: 288px;
+@media (max-width: 699px) {
+    .places__text {
+        gap: 25px;
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
     }
 }

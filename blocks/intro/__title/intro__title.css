@@ -8,7 +8,7 @@
     padding-top: 92px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .intro__title {
         padding-top: 88px;
         max-width:93.75vw;
@@ -16,6 +16,24 @@
 }
 
 @media (max-width: 320px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 1.094;
+        max-width:250px;
+        padding-top: 64px;
+    }
+}*/
+
+
+
+@media (min-width: 500px) and (max-width: 1000) {
+    .intro__title {
+        padding-top: 88px;
+        max-width:93.75vw;
+    }
+}
+
+@media (max-width: 499px) {
     .intro__title {
         font-size: 32px;
         line-height: 1.094;
