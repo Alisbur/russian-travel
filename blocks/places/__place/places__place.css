@@ -8,7 +8,7 @@
     grid-template-columns: minmax(440px,460px) 1fr;
     grid-template-areas:
     "places__title places__link"
-    "places__image places__text"
+    "places__image places__text";
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
@@ -35,6 +35,6 @@
         "places__title"
         "places__link"
         "places__image"
-        "places__text"
+        "places__text";
     }
 }
