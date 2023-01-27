@@ -34,25 +34,25 @@
     opacity: 50%;
 }
 
-@media (min-width: 1023px) and (max-width: 1184px) {
+@media screen and (min-width: 1023px) and (max-width: 1184px) {
     .cover__link {
         min-height: 640px;
     }
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
     .cover__link {
         min-height: 480px;
     }
 }
 
-@media (min-width: 599px) and (max-width: 767px) {
+@media screen and (min-width: 599px) and (max-width: 767px) {
     .cover__link {
         min-height: 312px;
     }
 }
 
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
     .cover__link {
         min-height: 200px;
         gap: 16px;

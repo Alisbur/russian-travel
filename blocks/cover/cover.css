@@ -5,14 +5,14 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
     .cover{
         padding-top: 90px;
         min-height: 480px;
     }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .cover{
         padding-top: 66px;
         min-height: 200px;
