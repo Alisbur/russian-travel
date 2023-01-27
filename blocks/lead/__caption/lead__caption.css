@@ -10,11 +10,12 @@
     padding-top: 8px;
     text-align: left;
     text-transform: uppercase;
+    box-sizing: border-box;
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .lead__caption {
-        min-width: 768px;
+        min-width: 100%;
         padding-left: 24px;
         box-sizing: border-box;
     }
@@ -23,6 +24,6 @@
 @media (max-width: 767px) {
     .lead__caption {
         padding-left: 16px;
-        min-width: 320px;
+        min-width: 100%;
     }
 }
