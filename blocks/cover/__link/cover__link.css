@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap:32px;
 }
 
 .cover__link:before {
@@ -55,5 +55,6 @@
 @media (max-width: 599px) {
     .cover__link {
         min-height: 200px;
+        gap: 16px;
     }
 }

@@ -20,7 +20,7 @@
 }*/
 
 
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1023px) and (max-width: 1200px) {
     .lead {
         padding: 0 48px;
     }
