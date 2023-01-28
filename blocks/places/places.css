@@ -1,23 +1,23 @@
 .places {
-    padding: 12px 148px 0 148px;
-    box-sizing: border-box;
-    width: 100%;
+  padding: 12px 148px 0 148px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1200px) {
-    .places {
-        padding: 12px 48px 0 48px;
-    }
+  .places {
+    padding: 12px 48px 0 48px;
+  }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1023px) {
-    .places {
-        padding: 18px 24px 0 24px;
-    }
+  .places {
+    padding: 18px 24px 0 24px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .places {
-        padding: 14px 0 0 0;
-    }
+  .places {
+    padding: 14px 0 0 0;
+  }
 }

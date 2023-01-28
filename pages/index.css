@@ -24,7 +24,7 @@
 /*---INTRO---*/
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_data/intro__list_data.css);
+@import url(../blocks/intro/__list-data/intro__list-data.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 
@@ -56,5 +56,5 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-/*---ДОПОЛНИТЕЛЬНО---*/
-@import url(../blocks/centralize/centralize.css);
+/*---HOVER ССЫЛОК---*/
+@import url(../blocks/link-transparency/link-transparency.css);
